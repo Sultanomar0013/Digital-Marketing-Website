@@ -1,0 +1,104 @@
+
+
+.home-main-div {
+    display: flex; 
+    flex-wrap: wrap;
+    height: 75vh;
+    
+  }
+  .home-sub-div{
+    margin-top: 15%;
+    color: var(--font-color);
+    margin-left: 12%;
+    width: 50%;
+    text-align: left;
+  }
+  .home-merge{
+    display: flex;
+
+  }
+
+  .home-image-div {
+    width: 650px;
+    height: auto;
+    /* text-align: left; */
+    /* margin-top: 7%; */
+    background-image: url(../images/Lamp.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  /* img {
+    display: block;
+    width: 100%;
+    height: auto;
+    
+  } */
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+  @media (min-width: 350px) and (max-width: 550px) {
+    .home-main-div {
+      height: 40vh;
+      
+    }
+    .home-sub-div{
+      margin-left: 5%;
+      margin-top: 25%;
+    }
+    .home-sub-div h1{
+      font-size: 1.3rem;
+    }
+    .home-sub-div p{
+      font-size: 0.7rem;
+    }
+    .home-btn{
+      font-size: 0.9rem;
+    }
+    .home-image-div {
+      width: 350px;
+    }
+
+  }
+
+  @media (min-width: 550px) and (max-width: 750px) {
+    .home-main-div {
+      height: 50vh;
+    }
+    .home-sub-div{
+      margin-top: 20%;
+      margin-left: 10%;
+      width: 50%;
+    }
+  
+.home-sub-div h1{
+  font-size: 1.3rem;
+}
+.home-sub-div p{
+  font-size: 0.7rem;
+}
+.home-btn{
+  font-size: 0.9rem;
+}
+.home-image-div {
+  width: 450px;
+}
+}
+
+  @media (min-width: 750px) and (max-width: 950px) {
+
+  }
+    
+  
+  
