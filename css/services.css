@@ -1,0 +1,135 @@
+body {
+    background-color: var(--bg-main-color);
+
+}
+
+/* .hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-filter: blur(5px);
+}
+
+.show {
+    opacity: 1 !important;
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+} */
+
+
+
+
+
+.service-main-div {
+    display: flex;
+    height: 50vh;
+    width: 100%;
+
+}
+
+
+.service-sub-div {
+    color: var(--font-color);
+    width: 100%;
+    margin-top: 3rem;
+
+}
+
+.services-title {
+    display: flex;
+    justify-content: center;
+
+}
+
+.service-h3 {
+    font-size: 1.3rem;
+    text-align: center;
+    color: black;
+    background-color: whitesmoke;
+    width: 15%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+
+}
+
+.service-p {
+    color: var(--font-color);
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 1.3rem;
+}
+
+
+.service-fieldset-div{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+
+.service-fieldset{
+    background-color: rgb(57, 56, 56);
+    text-align: center;
+    border: 2px solid rgb(57, 56, 56);
+    width: 20%;
+    height: 20vh;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.service-legend {
+    font-size: 1.2rem;
+    float: none;
+    width: 30%;
+    color: var(--title-color);
+    background-color: var(--font-color);
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+
+
+
+
+@media (min-width: 350px) and (max-width: 550px) {
+    .service-sub-div{
+        margin-top: 6rem;
+    }
+    .service-fieldset{
+        background-color: rgb(57, 56, 56);
+        text-align: center;
+        border: 2px solid rgb(57, 56, 56);
+        width: 30%;
+        height: 20vh;
+    }
+
+}
+
+@media (min-width: 550px) and (max-width: 750px) {
+    .service-sub-div{
+        margin-top: 6rem;
+    }
+    .service-fieldset{
+        background-color: rgb(57, 56, 56);
+        text-align: center;
+        border: 2px solid rgb(57, 56, 56);
+        width: 30%;
+        height: 20vh;
+    }
+}
+
+@media (min-width: 750px) and (max-width: 950px) {
+}
