@@ -1,14 +1,9 @@
-body {
-    background-color: var(--bg-main-color);
-
-}
-
-
 .about-main-div {
     display: flex;
     justify-content: center;
-    height: 50vh;
+    height: 100vh;
     width: 100%;
+    
 }
 
 .about-sub-div {
@@ -20,30 +15,44 @@ body {
 }
 
 .about-fieldset {
-    background-color: rgb(57, 56, 56);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: 181818;
     text-align: center;
-    border: 2px solid rgb(57, 56, 56);
-    max-width: 80%;
+    border: 2px solid 181818;
+    height: 100%;
+    width: 100%;
     margin: auto;
 }
 
 .about-legend {
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     float: none;
-    width: 25%;
+    height: 3rem;
+    width: 20%;
     color: var(--title-color);
     background-color: var(--font-color);
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.about_p_div {
+    width: 70%;
 }
 
 .about-p {
+    font-size: 2rem;
     color: var(--font-color);
-    margin-left: 5%;
-    margin-right: 5%;
+}
+
+.about_video_div {
+    width: 70%;
+
 }
 
 
@@ -56,10 +65,12 @@ body {
     .about-sub-div {
         margin-top: 3rem;
     }
+
     .about-legend {
         font-size: 0.8rem;
         width: 30%;
     }
+
     .about-video {
         max-width: 70%;
     }
@@ -71,6 +82,7 @@ body {
     .about-sub-div {
         margin-top: 3rem;
     }
+
     .about-legend {
         font-size: 0.8rem;
         width: 30%;

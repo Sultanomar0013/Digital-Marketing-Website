@@ -6,7 +6,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <link rel="stylesheet" href="../css/all.css">
-    </head>
+        <link rel="stylesheet" href="../css/home.css">
+        <link rel="stylesheet" href="../css/about.css">
+
+        
+        <link rel="stylesheet" href="../css/form.css">
+        <link rel="stylesheet" href="../css/services.css">
+        <link rel="stylesheet" href="../css/footer.css">
+    </head> 
     <body>
         <div>
         <?php
@@ -19,7 +26,6 @@
     </body>
 
 </html>
-
 
 
 

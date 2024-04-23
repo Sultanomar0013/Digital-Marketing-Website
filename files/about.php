@@ -1,12 +1,3 @@
-<html>
-    <head>
-        <title>
- 
-        </title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="../css/about.css">
-</head>
-<body>
 
 <div class="about-main-div">
             <div class="about-sub-div" >
@@ -16,30 +7,31 @@
             <legend class="about-legend" ><strong>ABOUT US</strong></legend>
             <br>
             <br>
-
+                <div class="about_p_div">
+                <p class="about-p"><strong>WE ARE SOCIAL MEDIA MARKETING AGENCY HELPING 
+                    BUSINESSES AND CREATIVES REACH THEIR GOAL</strong></p>
+                </div>
                 
-                <p class="about-p"><strong>WE ARE SOCIAL MEDIA MARKETING AGENCY HELPING BUSINESSES AND CREATIVES REACH THEIR GOAL</strong></p>
-                <br>
-                <br>
-
             
+                <br>
+                <br>
+                <div class="about_video_div">
                 <video class="embed-responsive-item about-video"   controls>
                     <source src="example.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
+                </div>
+            
+               
                 <br>
                 <br>
                 <br>
                 
             </fieldset>
-       
+    
         
 
             </div>
             
             
-        </div>
-
-
-</body>
-</html>
+</div>

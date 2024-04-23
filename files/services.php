@@ -1,43 +1,37 @@
-<html>
-    <head>
-        <title>
 
-        </title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<div class="service-main-div">
+            <div class="service-sub-div" >
 
-        <link rel="stylesheet" href="../css/services.css">
-    </head>
-    <body>
-
-        <div class="service-main-div">
-            <div class="service-sub-div"> 
-                        <div class="services-title">
-                        <h5 class="service-h3" >SERVICES</h5>
-                        </div>
-                    <br>
-                    <p class="service-p"><strong>Our Actively Seeking Services</strong></p>
-                        <br>
-                        <div class="service-fieldset-div">
-                            <fieldset class="service-fieldset"> 
-                                <legend class="service-legend">1</legend>
-                            </fieldset>
-                            <fieldset class="service-fieldset">
-                                <legend class="service-legend">2</legend>
-                            </fieldset>
-                            <fieldset class="service-fieldset">
-                                <legend class="service-legend">3</legend>
-                            </fieldset>
-                        </div>
-
-                    
-                        
-            </div>
-        </div>
-
+            <fieldset class="service-fieldset" >
+        
+            <legend class="service-legend" ><strong>SERVICE</strong></legend>
+            <br>
+            <br>
+                <div class="service-p-div">
+                <p class="service-p"><strong>WE ARE SOCIAL MEDIA MARKETING AGENCY HELPING 
+                    BUSINESSES AND CREATIVES REACH THEIR GOAL</strong></p>
+                </div>
+                
+            
+                <br>
+                <br>
+                <div class="service-video-div">
+                <video class="embed-responsive-item about-video"   controls>
+                    <source src="example.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                </div>
+            
+               
+                <br>
+                <br>
+                <br>
+                
+            </fieldset>
     
-    </body>
-</html>
+        
 
-
-
-
+            </div>
+            
+            
+</div>

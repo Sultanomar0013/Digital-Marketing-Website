@@ -1,29 +1,37 @@
 
-
+.home-body{
+  background-color: black;
+}
 .home-main-div {
     display: flex; 
-    flex-wrap: wrap;
-    height: 75vh;
-    
+    flex-wrap: wrap; 
+    height: 100vh;
   }
-  .home-sub-div{
-    margin-top: 15%;
-    color: var(--font-color);
-    margin-left: 12%;
-    width: 50%;
-    text-align: left;
-  }
+
   .home-merge{
     display: flex;
+    margin-top:10%;
 
+  }
+
+  .home-sub-div{
+    margin-top: 5%;
+
+    flex-direction: column;
+    color: var(--font-color);
+    margin-left: 5%;
+    width: 60%;
+    text-align: left;
+  }
+  .home-sub-div h1{
+    font-size: 5rem;
   }
 
   .home-image-div {
-    width: 650px;
-    height: auto;
-    /* text-align: left; */
-    /* margin-top: 7%; */
-    background-image: url(../images/Lamp.png);
+    width: 400px;
+    height: 600px;
+
+    background-image: url(../images/lamp.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -55,7 +63,7 @@
     }
     .home-sub-div{
       margin-left: 5%;
-      margin-top: 25%;
+    
     }
     .home-sub-div h1{
       font-size: 1.3rem;
@@ -77,7 +85,7 @@
       height: 50vh;
     }
     .home-sub-div{
-      margin-top: 20%;
+
       margin-left: 10%;
       width: 50%;
     }
