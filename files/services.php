@@ -1,25 +1,43 @@
 
-<div class="service-main-div">
+<div class="service-main-div" id="services">
             <div class="service-sub-div" >
 
             <fieldset class="service-fieldset" >
         
-            <legend class="service-legend" ><strong>SERVICE</strong></legend>
+            <legend class="service-legend" >SERVICES</legend>
             <br>
             <br>
                 <div class="service-p-div">
-                <p class="service-p"><strong>WE ARE SOCIAL MEDIA MARKETING AGENCY HELPING 
-                    BUSINESSES AND CREATIVES REACH THEIR GOAL</strong></p>
+                <p class="service-p">OUR ACTIVELY SEEKING SERVICES</p>
                 </div>
                 
             
                 <br>
                 <br>
-                <div class="service-video-div">
-                <video class="embed-responsive-item about-video"   controls>
-                    <source src="example.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
+                <div class="service-multi-div">
+
+                    <div class="service-fieldset-sub-div">
+                        <fieldset class="service-sub-fieldset">
+                                <legend class="service-sub-legend">
+                                    1
+                                </legend>
+                        </fieldset>
+                    </div>
+                    <div class="service-fieldset-sub-div">
+                        <fieldset class="service-sub-fieldset">
+                                <legend class="service-sub-legend">
+                                    2
+                                </legend>
+                        </fieldset>
+                    </div>
+                    <div class="service-fieldset-sub-div">
+                        <fieldset class="service-sub-fieldset">
+                                <legend class="service-sub-legend">
+                                    3
+                                </legend>
+                        </fieldset>
+                    </div>
+
                 </div>
             
                

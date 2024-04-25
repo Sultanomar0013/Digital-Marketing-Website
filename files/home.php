@@ -9,19 +9,16 @@
     </head>
     <body class="home-body">
 
-        <div class="home-main-div">
+        <div class="home-main-div" id="home">
             <div class="home-merge">
                 <div class="home-sub-div ">
                     <h1>
-                        <strong>Ready To Build Your Own social Identity?</strong>
+                        READY TO BUILD YOUR OWN SOCIAL IDENTITY?
                     </h1>
-                    <p><strong>JOIN US AND DELLIVER INTO THE WORLD OF SOCIAL MEDIA MARKETING</strong></p>
-                    <a type="button" class="btn btn-light home-btn"><strong>JOIN US</strong></a>
+                    <p>JOIN US AND DELVE INTO THE WORLD OF SOCIAL MEDIA MARKETING</p>
+                    <a href="form.php" type="button" class="btn btn-light home-btn">JOIN US</a>
                 </div>
                 <div class="home-image-div">
-                    <!-- <img src="../images/Lamp.png" alt="Description of the image" class="lamp" > -->
-                    <!-- <img src="../images/Lamp.png" alt="Lamp">   -->
-
 
                 </div>
 

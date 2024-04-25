@@ -3,7 +3,7 @@
     justify-content: center;
     height: 100vh;
     width: 100%;
-    
+    font-family: "Inter", sans-serif;
 }
 
 .about-sub-div {
@@ -11,13 +11,14 @@
 
     color: var(--title-color);
     width: 100%;
+    margin-top: 7rem;
 
 }
 
 .about-fieldset {
     display: flex;
     align-items: center;
-    justify-content: center;
+
     flex-direction: column;
     background-color: 181818;
     text-align: center;
@@ -28,31 +29,41 @@
 }
 
 .about-legend {
-    font-size: 1.8rem;
+    font-size: 2.3rem;
+    font-weight: 600;
     float: none;
-    height: 3rem;
-    width: 20%;
+    height: 3.5rem;
+    width: 16rem;
     color: var(--title-color);
     background-color: var(--font-color);
-    border-radius: 15px;
-    -webkit-border-radius: 15px;
-    -moz-border-radius: 15px;
-    -ms-border-radius: 15px;
-    -o-border-radius: 15px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    text-align: center;
+    
 }
 
 .about_p_div {
-    width: 70%;
-}
-
-.about-p {
-    font-size: 2rem;
+    width: 60%;
+    
     color: var(--font-color);
 }
 
-.about_video_div {
-    width: 70%;
+.about-p{
+    font-weight: 600;
+    font-size: 2rem;
+}
 
+.about_video_div {
+    /* width: 40rem;
+    height: 30rem; */
+
+}
+.about-video{
+    width: 40rem;
+    height: 20rem;
 }
 
 
@@ -67,13 +78,25 @@
     }
 
     .about-legend {
-        font-size: 0.8rem;
-        width: 30%;
+        font-size: 1.8rem;
+    width: 12rem;
+    height:3rem;
+    }
+    .about_p_div {
+        width: 80%;
+       
+        color: var(--font-color);
+    }
+    .about-p{
+        font-weight: 600;
+        font-size: 1.5rem;
     }
 
-    .about-video {
-        max-width: 70%;
+    .about-video{
+        width: 20rem;
+        height: 15rem;
     }
+    
 
 
 }
@@ -82,12 +105,35 @@
     .about-sub-div {
         margin-top: 3rem;
     }
+    .about_p_div {
+        width: 80%;
+       
+        color: var(--font-color);
+    }
 
-    .about-legend {
-        font-size: 0.8rem;
-        width: 30%;
+    .about-p{
+        font-weight: 600;
+        font-size: 2rem;
+    }
+    .about-video{
+        width: 20rem;
+        height: 10rem;
     }
 
 }
 
-@media (min-width: 750px) and (max-width: 950px) {}
+@media (min-width: 750px) and (max-width: 950px) {
+    .about_p_div {
+        width: 70%;
+       
+        color: var(--font-color);
+    }
+    .about-p{
+        font-weight: 600;
+        font-size: 2rem;
+    }
+    .about-video{
+        width: 25rem;
+        height: 15rem;
+    }
+}

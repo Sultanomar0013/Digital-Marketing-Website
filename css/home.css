@@ -11,7 +11,7 @@
   .home-merge{
     display: flex;
     margin-top:10%;
-
+    font-family: "Inter", sans-serif;
   }
 
   .home-sub-div{
@@ -24,7 +24,9 @@
     text-align: left;
   }
   .home-sub-div h1{
-    font-size: 5rem;
+    
+    font-size: 4rem;
+    font-weight: 800;
   }
 
   .home-image-div {
@@ -43,8 +45,15 @@
     height: auto;
     
   } */
-
-
+  .home-sub-div p{
+    font-weight: 200;
+  }
+.home-sub-div a{
+  width:10rem;
+  height:4rem;
+  font-size: 2rem;
+  font-weight: 650;
+}
 
   
 
@@ -57,53 +66,56 @@
   
 
   @media (min-width: 350px) and (max-width: 550px) {
-    .home-main-div {
-      height: 40vh;
+.home-main-div{
+  align-items: center;
+}
+    .home-merge{
+      display: flex;
+      justify-content: center;
+      text-align: center;
       
+  
     }
     .home-sub-div{
-      margin-left: 5%;
-    
+      margin-top: 0;
+      margin-left: 0;
+      text-align: center;
+      color: var(--font-color);
+      width: 90%;
     }
+
     .home-sub-div h1{
-      font-size: 1.3rem;
+      font-size: 3rem;
+      text-align: center;
     }
-    .home-sub-div p{
-      font-size: 0.7rem;
-    }
-    .home-btn{
-      font-size: 0.9rem;
-    }
+
+
     .home-image-div {
-      width: 350px;
+      display: none;
     }
+
+
+
 
   }
 
-  @media (min-width: 550px) and (max-width: 750px) {
-    .home-main-div {
-      height: 50vh;
+  @media (min-width: 550px) and (max-width: 850px) {
+    .home-merge{
+      display: flex;
+      margin-top:25%;
+  
     }
-    .home-sub-div{
-
-      margin-left: 10%;
-      width: 50%;
+    .home-sub-div h1{
+      font-size: 4rem;
     }
   
-.home-sub-div h1{
-  font-size: 1.3rem;
+    .home-image-div {
+      width: 300px;
+      height: 500px;
+  
+      background-image: url(../images/lamp.png);
+    }
 }
-.home-sub-div p{
-  font-size: 0.7rem;
-}
-.home-btn{
-  font-size: 0.9rem;
-}
-.home-image-div {
-  width: 450px;
-}
-}
-
   @media (min-width: 750px) and (max-width: 950px) {
 
   }

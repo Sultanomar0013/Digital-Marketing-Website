@@ -3,6 +3,7 @@
     justify-content: center;
     height: 100vh;
     width: 100%;
+    font-family: "Inter", sans-serif;
     
 }
 
@@ -11,27 +12,28 @@
 
     color: var(--title-color);
     width: 100%;
-
+    margin-top: 7rem;
 }
 
 .service-fieldset {
     display: flex;
     align-items: center;
-    justify-content: center;
+
     flex-direction: column;
-    background-color: 181818;
+    background-color: black;
     text-align: center;
-    border: 2px solid 181818;
+    
     height: 100%;
     width: 100%;
     margin: auto;
 }
 
 .service-legend {
-    font-size: 1.8rem;
+    font-size: 2.3rem;
+    font-weight: 600;
     float: none;
-    height: 3rem;
-    width: 20%;
+    height: 3.5rem;
+    width: 16rem;
     color: var(--title-color);
     background-color: var(--font-color);
     border-radius: 15px;
@@ -46,13 +48,53 @@
 }
 
 .service-p {
-    font-size: 2rem;
+    font-size: 2.3rem;
+    font-weight: 600;
     color: var(--font-color);
 }
 
-.service-video-div {
-    width: 70%;
+.service-multi-div{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+height: 60vh;
+width: 100%;
+}
+.service-fieldset-sub-div{
 
+    
+    }
+
+.service-sub-fieldset{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: 181818;
+    text-align: center;
+    border: 2px solid 181818;
+    height: 100%;
+    width: 20rem;
+    margin: auto;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.service-sub-legend {
+    font-size: 4rem;
+    float: none;
+    font-weight: 700;
+    height: 6rem;
+    width: 6rem;
+    color: var(--title-color);
+    background-color: D9D9D9;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
 }
 
 
@@ -61,26 +103,55 @@
 
 
 
-@media (min-width: 350px) and (max-width: 550px) {
-    .about-sub-div {
-        margin-top: 3rem;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 300px) and (max-width: 550px) {
+
+    .service-main-div {
+
+        height: 240vh;
+
+        
     }
 
-    .about-legend {
-        font-size: 0.8rem;
-        width: 30%;
-    }
+}
+@media (min-width: 550px) and (max-width: 650px) {
+    .service-main-div {
 
-    .about-video {
-        max-width: 70%;
-    }
+        height: 230vh;
 
+        
+    }
 
 }
 
-@media (min-width: 550px) and (max-width: 750px) {
+@media (min-width: 650px) and (max-width: 750px) {
+    .service-main-div {
 
+        height: 170vh;
+
+        
+    }
 
 }
 
-@media (min-width: 750px) and (max-width: 950px) {}
+@media (min-width: 750px) and (max-width: 975px) {
+    .service-main-div {
+
+        height: 180vh;
+
+        
+    }
+}

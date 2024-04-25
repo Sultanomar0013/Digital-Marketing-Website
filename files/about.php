@@ -1,15 +1,15 @@
 
-<div class="about-main-div">
+<div class="about-main-div" id="about">
             <div class="about-sub-div" >
 
             <fieldset class="about-fieldset" >
         
-            <legend class="about-legend" ><strong>ABOUT US</strong></legend>
+            <legend class="about-legend" >ABOUT US</legend>
             <br>
             <br>
                 <div class="about_p_div">
-                <p class="about-p"><strong>WE ARE SOCIAL MEDIA MARKETING AGENCY HELPING 
-                    BUSINESSES AND CREATIVES REACH THEIR GOAL</strong></p>
+                <p class="about-p">WE ARE A SOCIAL MEDIA MARKETING AGENCY HELPING BUSINESSES 
+                    AND CREATIVES REACH THEIR GOAL</p>
                 </div>
                 
             
