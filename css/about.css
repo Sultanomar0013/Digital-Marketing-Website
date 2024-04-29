@@ -1,7 +1,7 @@
 .about-main-div {
     display: flex;
     justify-content: center;
-    height: 100vh;
+    height: 200vh;
     width: 100%;
     font-family: "Inter", sans-serif;
 }
@@ -66,6 +66,137 @@
     height: 20rem;
 }
 
+.about_details{
+    width:100%;
+    padding-top: 3rem;
+}
+
+.about_f{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    color: white;
+
+}
+.about_founder{
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.f_text{
+    margin-left: 5rem;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-align: left;
+}
+
+.about_founder h4{
+    font-weight: 900;
+    font-size: 1.7rem;
+}
+.founder_image{
+    border: 0.3rem  solid white;
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.about_founder p{
+    margin-top: 15px;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.f_text p{
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+
+
+
+/* cofounder */
+
+
+.about_co_f{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+
+    color: white;
+
+}
+.about_co_founder{
+    margin-left: 3rem;
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.co_f_text{
+    margin-left: 2rem;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-align: left;
+}
+
+.about_co_founder h4{
+    font-weight: 900;
+    font-size: 1.7rem;
+}
+.founder_image{
+    border: 0.3rem  solid white;
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.about_co_founder p{
+    margin-top: 15px;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.co_f_text p{
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -73,6 +204,12 @@
 
 
 @media (min-width: 350px) and (max-width: 550px) {
+    .about-main-div {
+       
+        height: 230vh;
+      
+    }
+
     .about-sub-div {
         margin-top: 3rem;
     }
@@ -96,15 +233,44 @@
         width: 20rem;
         height: 15rem;
     }
+    .about_f{
+    flex-direction: column;
+    align-items: center;
+ 
     
-
+    }
+    .f_text{
+        width: 90%;
+       
+        margin-left: 0rem;
+        text-align: justify;
+        
+    }
+    .about_co_f{
+        flex-direction: column;
+        align-items: center;
+    }
+    .co_f_text{
+        width: 90%;
+       
+        margin-left: 0rem;
+        text-align: justify;
+    }
+    .about_co_founder{
+        margin-left: 0rem;
+      
+    
+    }
 
 }
 
 @media (min-width: 550px) and (max-width: 750px) {
-    .about-sub-div {
-        margin-top: 3rem;
+    .about-main-div {
+       
+        height: 190vh;
+      
     }
+
     .about_p_div {
         width: 80%;
        
@@ -123,6 +289,11 @@
 }
 
 @media (min-width: 750px) and (max-width: 950px) {
+    .about-main-div {
+       
+        height: 180vh;
+      
+    }
     .about_p_div {
         width: 70%;
        
