@@ -24,7 +24,7 @@
                         <div class="service-fieldset-sub-div">
                             <fieldset class="service-sub-fieldset">
                                     <legend class="service-sub-legend">
-                                        1
+                                       <div style="display:flex; justify-content:center; align-items:center; height:6rem; width:6rem"> <img src="../images/trim.png" alt="" style="width:3rem ;height: auto"></div>
                                     </legend>
                             </fieldset>
                         </div>
@@ -34,14 +34,14 @@
                             <fieldset class="service-sub-fieldset">
                         
                                     <legend class="service-sub-legend">
-                                        2
+                                         <div style="display:flex; justify-content:center; align-items:center; height:6rem; width:6rem"> <img src="../images/briefcase.png" alt="" style="width:3rem ;height: auto"></div>
                                     </legend>
                             </fieldset>
                         </div>
                         <div class="service-fieldset-sub-div">
                             <fieldset class="service-sub-fieldset">
                                     <legend class="service-sub-legend">
-                                        3
+                                         <div style="display:flex; justify-content:center; align-items:center; height:6rem; width:6rem"> <img src="../images/email.png" alt="" style="width:3rem ;height: auto"></div>
                                     </legend>
                             </fieldset>
                         </div>
