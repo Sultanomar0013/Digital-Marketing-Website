@@ -1,7 +1,7 @@
 .about-main-div {
     display: flex;
     justify-content: center;
-    height: 200vh;
+    height: auto;
     width: 100%;
     font-family: "Inter", sans-serif;
 }
@@ -28,12 +28,13 @@
     margin: auto;
 }
 
-.about-legend {
+.about-legend{
+    
     font-size: 2.3rem;
     font-weight: 600;
     float: none;
     height: 3.5rem;
-    width: 16rem;
+    /* width: 16rem; */
     color: var(--title-color);
     background-color: var(--font-color);
     border-radius: 20px;
@@ -42,12 +43,13 @@
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
     text-align: center;
+        
+    }
     
-}
+
+
 
 .about_p_div {
-    width: 60%;
-    
     color: var(--font-color);
 }
 
@@ -67,14 +69,16 @@
 }
 
 .about_details{
+    display: contents;
     /* width:100%; */
     padding-top: 3rem;
 }
 
 .about_f{
-    width: 100%;
+
     display: flex;
     justify-content: center;
+    align-items: center;
 
     color: white;
 
@@ -89,11 +93,9 @@
 }
 .f_text{
     margin-left: 5rem;
-    /* width: 45%; */
     display: flex;
     justify-content: center;
     align-items: center;
-
     text-align: justify;
 }
 
@@ -128,7 +130,7 @@
 
 
 .about_co_f{
-    width: 100%;
+
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
@@ -146,11 +148,9 @@
 }
 .co_f_text{
     margin-left: 5rem;
-    /* width: 45%; */
     display: flex;
     justify-content: center;
     align-items: center;
-  
     text-align: justify;
 }
 
@@ -197,9 +197,9 @@
 
 
 @media (min-width: 330px) and (max-width: 460px) {
-    .about-main-div {
-        height: 260vh;
-    }
+    /* .about-main-div {
+        height: 250vh;
+    } */
 
     .about-sub-div {
         margin-top: 3rem;
@@ -207,11 +207,10 @@
 
     .about-legend {
         font-size: 1.8rem;
-    width: 12rem;
+    /* width: 12rem; */
     height:3rem;
     }
     .about_p_div {
-        width: 80%;
         color: var(--font-color);
     }
     .about-p{
@@ -252,9 +251,9 @@
 
 
 @media (min-width: 460px) and (max-width: 550px) {
-    .about-main-div {
-        height: 230vh;
-    }
+    /* .about-main-div {
+        height: 260vh;
+    } */
 
     .about-sub-div {
         margin-top: 3rem;
@@ -262,11 +261,10 @@
 
     .about-legend {
         font-size: 1.8rem;
-    width: 12rem;
+    /* width: 12rem; */
     height:3rem;
     }
     .about_p_div {
-        width: 80%;
         color: var(--font-color);
     }
     .about-p{
@@ -303,15 +301,18 @@
 }
 
 @media (min-width: 550px) and (max-width: 750px) {
-    .about-main-div {
+    /* .about-main-div {
        
         height: 240vh;
       
+    } */
+    .about-legend {
+        font-size: 1.8rem;
+    /* width: 12rem; */
+    height:3rem;
     }
 
     .about_p_div {
-        width: 80%;
-       
         color: var(--font-color);
     }
 
@@ -347,23 +348,9 @@
 
 }
 
-/* @media (min-width: 750px) and (max-width: 950px) {
-    .about-main-div {
-       
-        height: 180vh;
-      
+@media (min-width: 750px) and (max-width: 950px) {
+    .about-legend {
+        font-size: 1.8rem;
+    height:3rem;
     }
-    .about_p_div {
-        width: 70%;
-       
-        color: var(--font-color);
-    }
-    .about-p{
-        font-weight: 600;
-        font-size: 2rem;
-    }
-    .about-video{
-        width: 25rem;
-        height: 15rem;
-    }
-} */
+}

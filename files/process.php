@@ -9,7 +9,7 @@
 
                 <fieldset class="process-fieldset" >
             
-                <legend class="process-legend" >OUR PROCESS</legend>
+                <legend class="process-legend col-8 col-sm-5 col-md-4 col-lg-3" >OUR PROCESS</legend>
                 <br>
                 <br>
                     <div class="process-p-div">
@@ -25,36 +25,100 @@
                             <div class="process_icon_div">
                                 <div class="process_icon_one">
 								
-   <div style="display:flex; justify-content:center; align-items:center; height:12rem; width:12rem"> <img src="../images/trim.png" alt="" style="width:6rem ;height: auto"></div>
-   
+                                    <div class="process_title_img "style=""> <img src="../images/trim.png" alt="" style=""></div>
                                 </div>
-                                <div class="process_icon_two">
-
-                                </div>
+                                
                             </div>
-                                    <div class="process_middle_div">
-                                        <div class="process_p_div">
-                                        <div class="process_middle_p">
-                                            <img src="../images/video.png" alt="" style="width:3rem ;height: auto">
-                                            <p>Stratagize and
-                                                Script Your Content</p>
-                                        </div>
-                                        <div class="process_middle_p">
-                                        <img src="../images/email.png" alt="" style="width:3rem ;height: auto">
-                                        <p>Record And Edit
-                                            Your Content</p>
+                                    <div class="container process_middle_div col-11 col-sm-10">
+                                        <div class=" process_p_div col-10 ">
+
+                                            <div class="process_sec_sub">
+                                            <div class=" process_middle_p col-1 col-sm-2">
+                                                        <img src="../images/script.png" alt="" style="">
+                                                        <p>Stratagize and
+                                                            Script Your Content</p>
+                                                    </div>
+                                                    <div class=" process_middle_p col-1 col-sm-2">
+                                                        <img src="../images/videowhite.png" alt="" style="">
+                                                        <p>Record And Edit
+                                                            Your Content</p>
+                                                        </div>
+
+
                                             </div>
-                                            <div class="process_middle_p">
-                                            <img src="../images/email.png" alt="" style="width:3rem ;height: auto">
-                                            <p>Optimize Your
-                                                Content</p>
-                                            </div>
-                                            </div> 
+                                                <div class="process_sec_sub">
+                                                    <div class="  process_middle_p col-1 col-sm-2" >
+                                                            <img src="../images/web-management.png" alt="" style="">
+                                                            <p>Optimize Your
+                                                                Content</p>
+                                                        </div>
+                                                        <div class=" process_middle_p col-1 col-sm-2">
+                                                            <img src="../images/upload.png" alt="" style="">
+                                                            <p>Upload And Let The Views Rack Up</p>
+                                                        </div>
+
+                                                </div>
+
+                                                
+
+                                                    
+                                        </div> 
                                     </div>
                     
 
                     </div>
-                
+                    <div style="height:5rem; width:100%;">
+
+                    </div>
+
+                    <div class="process-multi-div">
+
+
+                            <div class="process_icon_div">
+                                <div class="process_icon_one">
+								
+                                    <div class="process_title_img "style=""> <img src="../images/briefcase.png" alt="" style=""></div>
+                                </div>
+                                
+                            </div>
+                                    <div class="container process_middle_div col-11 col-sm-10">
+                                        <div class=" process_p_div col-10 ">
+
+                                            <div class="process_sec_sub">
+                                            <div class=" process_middle_p col-1 col-sm-2">
+                                                        <img src="../images/script.png" alt="" style="">
+                                                        <p>Stratagize and
+                                                            Script Your Content</p>
+                                                    </div>
+                                                    <div class=" process_middle_p col-1 col-sm-2">
+                                                        <img src="../images/decision.png" alt="" style="">
+                                                        <p>Record And Edit
+                                                            Your Content</p>
+                                                        </div>
+
+
+                                            </div>
+                                                <div class="process_sec_sub">
+                                                    <div class="  process_middle_p col-1 col-sm-2" >
+                                                            <img src="../images/web-management.png" alt="" style="">
+                                                            <p>Optimize Your
+                                                                Content</p>
+                                                        </div>
+                                                        <div class=" process_middle_p col-1 col-sm-2">
+                                                            <img src="../images/graph.png" alt="" style="">
+                                                            <p>Upload And Let The Views Rack Up</p>
+                                                        </div>
+
+                                                </div>
+
+                                                
+
+                                                    
+                                        </div> 
+                                    </div>
+                    
+
+                    </div>
                 
                     <br>
                     <br>

@@ -1,14 +1,3 @@
-<html>
-    <head>
-        <title>
-
-</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
- 
-        <!-- <link rel="stylesheet" href="../css/home.css"> -->
-    </head>
-    <body class="home-body">
-
         <div class="home-main-div" id="home">
             <div class="home-merge">
                 <div class="home-sub-div ">
@@ -23,12 +12,7 @@
                 </div>
 
             </div>
-           
         </div>
-    
-    </body>
- 
-</html>
 
 
 

@@ -4,10 +4,10 @@
 
             <fieldset class="about-fieldset " >
         
-            <legend class="about-legend  " >ABOUT US</legend>
+            <legend  class="about-legend col-6 col-sm-5 col-md-3">ABOUT US</legend>
             <br>
             <br>
-                <div class="about_p_div">
+                <div class="about_p_div col-8">
                 <p class="about-p">WE ARE A SOCIAL MEDIA MARKETING AGENCY HELPING BUSINESSES 
                     AND CREATIVES REACH THEIR GOAL</p>
                 </div>
