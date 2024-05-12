@@ -4,6 +4,8 @@
     height: auto;
     width: 100%;
     font-family: "Inter", sans-serif;
+    position: relative;
+    padding-top: 90vh;
 }
 
 .about-sub-div {
@@ -301,14 +303,10 @@
 }
 
 @media (min-width: 550px) and (max-width: 750px) {
-    /* .about-main-div {
-       
-        height: 240vh;
-      
-    } */
+  
     .about-legend {
         font-size: 1.8rem;
-    /* width: 12rem; */
+
     height:3rem;
     }
 

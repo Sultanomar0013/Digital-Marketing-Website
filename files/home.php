@@ -12,6 +12,9 @@
                 </div>
 
             </div>
+            <div class="home_empty">
+
+            </div>
         </div>
 
 

@@ -1,16 +1,14 @@
-
-.home-body{
-  background-color: black;
-}
 .home-main-div {
     display: flex; 
     flex-wrap: wrap; 
-    height: 100vh;
+    height: 110vh;
+    background-color: black;
     background-image: url(../images/back.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-  
+    position: absolute;
+
   }
 
   .home-merge{
@@ -59,6 +57,7 @@
   font-size: 2rem;
   font-weight: 650;
 }
+
 
   
 
