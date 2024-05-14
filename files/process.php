@@ -199,13 +199,17 @@ function animateIcon() {
         var icons = document.querySelectorAll('.pro_icon');
         icons.forEach(function(icon) {
             if (isInViewport(icon)) {
+                 icon.style.opacity = 1;
                 if (!animationPlayed[icon.dataset.id]) { // Check animation state based on data-id
                     animationPlayed[icon.dataset.id] = true;
                     animateIcon(icon);
                 }
             } else {
-                animationPlayed[icon.dataset.id] = false;
+               
+                  icon.style.opacity = 0;
             }
+
+
         });
     }
 
