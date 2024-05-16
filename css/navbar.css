@@ -1,6 +1,0 @@
-.anima_logo{
-    -webkit-transition: -webkit-transform 0.5s;
-}
-.anima_logo:hover{
-    -webkit-transform: rotate(360deg) translateZ(0);
-}

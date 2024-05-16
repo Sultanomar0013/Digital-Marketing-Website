@@ -5,7 +5,7 @@
                         READY TO BUILD YOUR OWN SOCIAL IDENTITY?
                     </h1>
                     <p>JOIN US AND DELVE INTO THE WORLD OF SOCIAL MEDIA MARKETING</p>
-                    <a href="form.php" type="button" class="btn btn-light home-btn">JOIN US</a>
+                    <a href="form1.php" type="button" class="btn btn-light home-btn">JOIN US</a>
                 </div>
                 <div class="home-image-div">
 

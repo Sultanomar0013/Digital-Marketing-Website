@@ -1,23 +1,23 @@
 <?php
 include 'navbar.php';
-include 'database.php';
+// include 'database.php';
 
-$currentDate = date('d-m-Y'); 
-$currentTime = date('H:i A'); 
+// $currentDate = date('d-m-Y'); 
+// $currentTime = date('H:i A'); 
 
 
-if(isset($_POST['submit']) && strtotime($currentDate) < strtotime($_POST['date']) && strtotime($currentTime) < strtotime($_POST['time'])) {
+// if(isset($_POST['submit']) && strtotime($currentDate) < strtotime($_POST['date']) && strtotime($currentTime) < strtotime($_POST['time'])) {
     
-    $fname = $_POST['fname'] ;
-    $email = $_POST['email'] ;
-    $company_name = $_POST['company_name'] ;
-    $date = $_POST['date'] ;
-    $time = $_POST['time'] ;
+//     $fname = $_POST['fname'] ;
+//     $email = $_POST['email'] ;
+//     $company_name = $_POST['company_name'] ;
+//     $date = $_POST['date'] ;
+//     $time = $_POST['time'] ;
 
-    $insert_db = 'INSERT INTO '; 
+//     $insert_db = 'INSERT INTO '; 
 
-    mysqli_query($insert_db);
-}
+//     mysqli_query($insert_db);
+// }
 
 
 ?>
@@ -27,17 +27,16 @@ if(isset($_POST['submit']) && strtotime($currentDate) < strtotime($_POST['date']
 
         </title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!-- 
-        <link rel="stylesheet" href="../css/form.css"> -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <link rel="stylesheet" href="../css/form.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
         <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Angkor&family=Inter:wght@100..900&family=Outfit:wght@100..900&family=Pacifico&display=swap" rel="stylesheet">
 
 
 
-
-        <link rel="stylesheet" href="../css/form.css">
+      
 
     </head>
     <body class="form-body">
@@ -103,7 +102,9 @@ if(isset($_POST['submit']) && strtotime($currentDate) < strtotime($_POST['date']
             </div>
         </div>
 
-    
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLR5nQTf1eHhTVr2Zc+Y4v1xNxRoKQmN6NaGOX8qKn" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
     </body>
 </html>
 

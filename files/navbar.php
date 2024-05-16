@@ -28,7 +28,7 @@
           <a class="nav-link" href="#process" style="color:white;"><strong>Our Process</strong></a>
         </li>
             <li class="nav-item">
-            <a href="form.php" type="button" class="btn btn-light "><strong>JOIN US</strong></a>
+            <a href="form1.php" type="button" class="btn btn-light "><strong>JOIN US</strong></a>
           </li>';
         }
         ?>
@@ -36,7 +36,7 @@
     </div>
   </div>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  
 <script>
 $(document).ready(function(){
     // Smooth scrolling for navigation links
