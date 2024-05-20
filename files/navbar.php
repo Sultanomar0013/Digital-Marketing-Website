@@ -10,7 +10,7 @@
       <ul class="navbar-nav">
         <?php
         // Check if the current page is form.php
-        if (basename($_SERVER['PHP_SELF']) === 'form.php') {
+        if (basename($_SERVER['PHP_SELF']) === 'form1.php') {
             // Don't display the "Join Us" button
             echo '  <li class="nav-item">
             <a href="all.php" type="button" class="btn btn-light "><strong>HOME</strong></a>
