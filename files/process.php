@@ -9,7 +9,7 @@
 
                 <fieldset class="process-fieldset" >
             
-                <legend class="process-legend col-8 col-sm-5 col-md-4 col-lg-3" >OUR PROCESS</legend>
+                <legend class="process-legend " >OUR PROCESS</legend>
                 <br>
                 <br>
                     <div class="process-p-div">

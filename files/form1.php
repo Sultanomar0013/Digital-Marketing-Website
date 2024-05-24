@@ -38,29 +38,29 @@ include 'navbar.php';
 
 
     </head>
-    <body class="form-body">
+    <body class="form-body" style="font-family: Inter, sans-serif">
 
         <div class="form-main-div col-12  d-flex flex-column justify-content-center align-items-center" style="height:100vh">
 
         
                 <div class="col-12 d-flex justify-content-between container">
-                    <div class="col-3">
-                        <h2 style="color:white; text-decoration: underline;
-                            text-decoration-thickness: 1px; text-underline-offset: 6px;">INFO</h2>
+                    <div class="col-3" >
+                        <h1 style="color:white; text-decoration: underline;
+                            text-decoration-thickness: 1px; text-underline-offset: 6px;  " ><strong>INFO</strong></h1>
                     </div>
                     <div>
                         <div class="col-6 d-flex justify-content-center align-items-center">
-                            <h5 style="color:white">Ferox</h5>
+                            <h4 style="color:white; font-weight:500">Ferox</h4>
                             <a class="" href="#all"><img class="" src="../images/logo.png" alt="Logo" style="width:60px"></a>
                         </div>
                     </div>
                 </div>
 
 
-                <div class="container">
+                <div class="container mt-5">
                     <form class="container ">
-                        <div class="container mt-5">
-                                <div class="col-md-3 ">
+                        <div class="container " >
+                                <div class="col-2 ">
                                     <select class="form-control custom-select" id="exampleSelect">
                                         <option>BUDGET</option>
                                         <option>Option 2</option>
@@ -69,13 +69,35 @@ include 'navbar.php';
                                         <option>Option 5</option>
                                     </select>
                                 </div>
+                                
+                            
                             
                         </div>
+
+                        <div class="">
+                                <div class="col-12" style="display:flex; " > 
+                                    <input class="col-8 " style="height:3.5rem ;margin-left: auto; border-radius:10px; text-align:center;" type="text" value="NAME"/>
+                                </div>
+                                <div class="col-12 mt-4 " style=" display:flex; " > 
+                                    <input class="col-3 " style="height:3.5rem; margin-left: 55%; border-radius:10px; text-align:center; " type="date" />
+                                </div>
+
+
+                                <div class="col-12 mt-4" style="display:flex; " > 
+                                    <input class="col-6 " style="height:3.5rem; margin-right: auto; border-radius:10px; text-align:center; " type="text" value="EMAIL"/>
+                                </div>
+                            
+
+                        </div>
+
+                        <div class="col-1 mt-5" style="margin-left:auto;">
+                            <h4 style="color:#CFCFCF ; font-weight:700">EST:2021</h4>
+                        </div>
+                            
 
 
                     </form>
                 </div>
-
 
 
 

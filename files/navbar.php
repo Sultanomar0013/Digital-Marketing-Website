@@ -8,35 +8,31 @@
     </button>
     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
       <ul class="navbar-nav">
-        <?php
-        // Check if the current page is form.php
-        if (basename($_SERVER['PHP_SELF']) === 'form1.php') {
-            // Don't display the "Join Us" button
-            echo '  <li class="nav-item">
-            <a href="all.php" type="button" class="btn btn-light "><strong>HOME</strong></a>
-          </li>';
-        } else {
-            // Display the "Join Us" button
-            echo '  
+      
+          
             <li class="nav-item">
-          <a class="nav-link" href="#about" style="color:white;"><strong>About</strong></a>
+            <a class="nav-link" href="#process" style="color:white;"><strong>HOW WE WORK</strong></a>
+          </li> 
+            <li class="nav-item">
+          <a class="nav-link" href="#about" style="color:white;"><strong>ABOUT US</strong></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#services" style="color:white;"><strong>Services</strong></a>
+          <a class="nav-link" href="#services" style="color:white;"><strong>SERVICES</strong></a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#process" style="color:white;"><strong>Our Process</strong></a>
-        </li>
+      
             <li class="nav-item">
-            <a href="form1.php" type="button" class="btn btn-light "><strong>JOIN US</strong></a>
-          </li>';
-        }
-        ?>
+            <button  id="joinUsButton"  type="button" class="btn btn-light "  data-bs-toggle="modal" data-bs-target="#joinUsModal"><strong>JOIN US</strong></button>
+          </li>
       </ul>
     </div>
   </div>
 
-  
+
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
 <script>
 $(document).ready(function(){
     // Smooth scrolling for navigation links

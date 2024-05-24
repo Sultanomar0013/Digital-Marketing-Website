@@ -31,22 +31,21 @@
 }
 
 .about-legend{
-    
-    font-size: 2.3rem;
+    width:15rem;
+    font-size: 2rem;
     font-weight: 600;
     float: none;
-    height: 3.5rem;
-    /* width: 16rem; */
-    color: var(--title-color);
+    height: 3rem;
+    /*width: 16rem;
+    */color: var(--title-color);
     background-color: var(--font-color);
-    border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
     text-align: center;
-        
-    }
+}
     
 
 
@@ -61,13 +60,12 @@
 }
 
 .about_video_div {
-    /* width: 40rem;
-    height: 30rem; */
+    width: 90%;
 
 }
 .about-video{
-    width: 40rem;
-    height: 20rem;
+    width: 80%;
+    height: auto;
 }
 
 .about_details{
@@ -94,7 +92,6 @@
 
 }
 .f_text{
-    margin-left: 5rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -141,7 +138,7 @@
 
 }
 .about_co_founder{
-    margin-left: 2rem;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -149,7 +146,7 @@
 
 }
 .co_f_text{
-    margin-left: 5rem;
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -220,10 +217,7 @@
         font-size: 1.5rem;
     }
 
-    .about-video{
-        width: 20rem;
-        height: 15rem;
-    }
+
     .about_f{
     flex-direction: column;
     align-items: center;   
@@ -274,10 +268,7 @@
         font-size: 1.5rem;
     }
 
-    .about-video{
-        width: 20rem;
-        height: 15rem;
-    }
+
     .about_f{
     flex-direction: column;
     align-items: center;   
@@ -318,10 +309,7 @@
         font-weight: 600;
         font-size: 2rem;
     }
-    .about-video{
-        width: 20rem;
-        height: 10rem;
-    }
+  
     .about_f{
         flex-direction: column;
         align-items: center;

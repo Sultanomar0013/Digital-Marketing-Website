@@ -9,7 +9,7 @@
 
                 <fieldset class="service-fieldset" >
             
-                <legend class="service-legend col-6 col-sm-4 col-md-3" >SERVICES</legend>
+                <legend class="service-legend " >SERVICES</legend>
                 <br>
                 <br>
                     <div class="service-p-div">
@@ -21,7 +21,7 @@
                     <br>
                     <div class="container service-multi-div">
 
-                        <div class=" container service-fieldset-sub-div col-11 col-sm-11 col-md-5">
+                        <div class=" container service-fieldset-sub-div ">
                             <fieldset class="service-sub-fieldset ">
                                     <legend class="service-sub-legend">
                                         <div style=" display:flex; justify-content:center; align-items:center; height:6rem; width:6rem"> <img src="../images/trim.png" alt="" style="width:3rem ;height: auto"></div>
@@ -60,7 +60,7 @@
                         </div>
                         
 
-                        <div class="container service-fieldset-sub-div col-11 col-sm-11 col-md-5">
+                        <div class="container service-fieldset-sub-div ">
                             <fieldset class="service-sub-fieldset">
                                     <legend class="service-sub-legend">
                                             <div style="display:flex; justify-content:center; align-items:center; height:6rem; width:6rem"> <img class="serv_image" src="../images/briefcase.png" alt="" style="width:3rem ;height: auto"></div>

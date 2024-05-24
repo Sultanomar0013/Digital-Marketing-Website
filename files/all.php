@@ -13,7 +13,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Angkor&family=Inter:wght@100..900&family=Outfit:wght@100..900&family=Pacifico&display=swap" rel="stylesheet">
 
 
-
+<link rel="stylesheet" href="../css/form1.css">
 
         <link rel="stylesheet" href="../css/navbar.css">
         <link rel="stylesheet" href="../css/all.css">
@@ -22,23 +22,25 @@
 
         <link rel="stylesheet" href="../css/process.css">
 
-        <!-- <link rel="stylesheet" href="../css/form.css"> -->
         <link rel="stylesheet" href="../css/services.css">
         <link rel="stylesheet" href="../css/footer.css">
+        <link rel="stylesheet" href="../css/modal.css">
 
         <script src="../anime.min.js"></script>
         <script src="../js/animation.js"></script>
-       
+
     </head> 
     <body>
         <div>
         <?php
+        
             include 'navbar.php';
             include 'home.php';
             include 'about.php';
             include 'services.php';
             include 'process.php';
             include 'footer.php';
+            include 'modal.php';
 
         ?>
  

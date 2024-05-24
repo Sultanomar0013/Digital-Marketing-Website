@@ -1,0 +1,35 @@
+.pop_up_image{
+    height: 80vh;
+    background-image: url('../images/back.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center ; 
+    color: white; 
+}
+
+
+
+
+.pop_up_image .modal-header {
+    border-bottom: none;
+}
+.custom-select {
+    background: linear-gradient(0deg, #BF9B30, #FFE392, #BF9B30);
+    height: 5rem;
+    text-align: center;
+    font-weight: 900;
+    
+}
+
+.custom-select option {
+    
+     /* This ensures the options have a readable background */
+    color: black; /* Text color for options */
+}
+.custom-select option:first-child {
+    /* Maximum allowed value for font weight */
+}
+
+.custom-select:focus {
+    box-shadow: 0 0 0 0.2rem rgba(240, 101, 149, 0.25);
+}
