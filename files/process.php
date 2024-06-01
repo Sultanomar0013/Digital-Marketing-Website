@@ -9,7 +9,7 @@
 
                 <fieldset class="process-fieldset" >
             
-                <legend class="process-legend " >OUR PROCESS</legend>
+                <legend class="process-legend" >OUR PROCESS</legend>
                 <br>
                 <br>
                     <div class="process-p-div">
@@ -33,26 +33,26 @@
                                         <div class=" process_p_div col-10 ">
 
                                             <div class="process_sec_sub">
-                                            <div class=" process_middle_p col-1 col-sm-2">
+                                                    <div class=" process_middle_p ">
                                                         <img class="pro_icon" src="../images/script.png" alt="" style="" data-id="1" data-delay="300">
                                                         <p>Stratagize and
                                                             Script Your Content</p>
                                                     </div>
-                                                    <div class=" process_middle_p col-1 col-sm-2">
+                                                    <div class=" process_middle_p ">
                                                         <img class="pro_icon" src="../images/videowhite.png" alt="" style="" data-id="2"data-delay="400">
                                                         <p>Record And Edit
                                                             Your Content</p>
-                                                        </div>
+                                                    </div>
 
 
                                             </div>
                                                 <div class="process_sec_sub">
-                                                    <div class="  process_middle_p col-1 col-sm-2" >
+                                                    <div class="  process_middle_p " >
                                                             <img  class="pro_icon" src="../images/web-management.png" alt="" style="" data-id="3" data-delay="500">
                                                             <p>Optimize Your
                                                                 Content</p>
                                                         </div>
-                                                        <div class=" process_middle_p col-1 col-sm-2">
+                                                        <div class=" process_middle_p ">
                                                             <img class="pro_icon" src="../images/upload.png" alt="" style="" data-id="4" data-delay="300">
                                                             <p>Upload And Let The Views Rack Up</p>
                                                         </div>
@@ -85,12 +85,12 @@
                                         <div class=" process_p_div col-10 ">
 
                                             <div class="process_sec_sub">
-                                            <div class=" process_middle_p col-1 col-sm-2">
+                                            <div class=" process_middle_p ">
                                                         <img class="pro_icon" src="../images/script.png" alt="" style="" data-id="5" data-delay="300">
                                                         <p>Stratagize and
                                                             Script Your Content</p>
                                                     </div>
-                                                    <div class=" process_middle_p col-1 col-sm-2">
+                                                    <div class=" process_middle_p ">
                                                         <img class="pro_icon" src="../images/decision.png" alt="" style="" data-id="6" data-delay="400">
                                                         <p>Record And Edit
                                                             Your Content</p>
@@ -99,12 +99,12 @@
 
                                             </div>
                                                 <div class="process_sec_sub">
-                                                    <div class="  process_middle_p col-1 col-sm-2" >
+                                                    <div class="  process_middle_p " >
                                                             <img class="pro_icon" src="../images/web-management.png" alt="" style="" data-id="7" data-delay="500">
                                                             <p>Optimize Your
                                                                 Content</p>
                                                         </div>
-                                                        <div class=" process_middle_p col-1 col-sm-2">
+                                                        <div class=" process_middle_p ">
                                                             <img class="pro_icon" src="../images/graph.png" alt="" style="" data-id="8" data-delay="300">
                                                             <p>Upload And Let The Views Rack Up</p>
                                                         </div>

@@ -1,0 +1,126 @@
+.home-main-div {
+    display: flex; 
+    flex-wrap: wrap; 
+    height: 110vh;
+    background-color: black;
+    background-image: url(../images/back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+
+  }
+
+  .home-merge{
+    display: flex;
+    margin-top:10rem;
+    font-family: "Inter", sans-serif;
+  }
+
+  .home-sub-div{
+    margin-top: 7%;
+
+    flex-direction: column;
+    color: var(--font-color);
+    margin-left: 5%;
+    width: 60%;
+    text-align: left;
+  }
+  .home-sub-div h1{
+    
+    font-size: 4rem;
+    font-weight: 600;
+  }
+
+  .home-image-div {
+    width: 390px;
+    height: 550px;
+
+    background-image: url(../images/cube.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  /* img {
+    display: block;
+    width: 100%;
+    height: auto;
+    
+  } */
+  .home-sub-div p{
+    font-weight: 200;
+  }
+.home-sub-div a{
+  width:10rem;
+  height:3.5rem;
+  font-size: 2rem;
+  font-weight: 650;
+}
+
+
+  
+
+
+
+
+
+
+
+  
+
+  @media (min-width: 350px) and (max-width: 550px) {
+.home-main-div{
+  align-items: center;
+}
+    .home-merge{
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      
+  
+    }
+    .home-sub-div{
+      margin-top: 0;
+      margin-left: 0;
+      text-align: center;
+      color: var(--font-color);
+      width: 90%;
+    }
+
+    .home-sub-div h1{
+      font-size: 3rem;
+      text-align: center;
+    }
+
+
+    .home-image-div {
+      display: none;
+    }
+
+
+
+
+  }
+
+  @media (min-width: 550px) and (max-width: 850px) {
+    .home-merge{
+      display: flex;
+      margin-top:25%;
+  
+    }
+    .home-sub-div h1{
+      font-size: 3rem;
+    }
+  
+    .home-image-div {
+      width: 300px;
+      height: 500px;
+    }
+}
+  @media (min-width: 750px) and (max-width: 950px) {
+
+  }
+    
+  
+  

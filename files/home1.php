@@ -1,4 +1,4 @@
-<div class="home-main-div" id="home">
+        <div class="home-main-div" id="home">
             <div class="home-merge">
                 <div class="home-sub-div ">
                     <h1>
