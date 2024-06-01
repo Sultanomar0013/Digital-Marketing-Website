@@ -424,14 +424,58 @@
 @media (min-width: 1300px) and (max-width: 1500px) {
 
     .process_middle_p{
-        width: 11rem;
+        width: 8rem;
     }
+
+
+
+
+
+
+
+
+
+
+
+    .process-multi-div{
+        width: 60rem;
+    
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
 @media (min-width: 1500px) and (max-width: 2000px) {
 
     .process_middle_p{
-        width: 13rem;
+        width: 8rem;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    .process-multi-div{
+        width: 60rem;
+    
     }
 
 }
